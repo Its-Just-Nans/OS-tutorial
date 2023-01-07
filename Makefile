@@ -1,4 +1,4 @@
-all: step-1 step-2 step-3 step-4
+all: step-1 step-2 step-3 step-4 step-5 step-6
 
 .PHONY: step-1
 step-1:
@@ -19,3 +19,7 @@ step-4:
 .PHONY: step-5
 step-5:
 	cd step-5 && make
+
+.PHONY: step-6
+step-6:
+	cd step-6 && make
