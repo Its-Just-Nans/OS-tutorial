@@ -23,3 +23,7 @@ step-5:
 .PHONY: step-6
 step-6:
 	cd step-6 && make
+
+.PHONY: step-7
+step-7:
+	cd step-7 && make
